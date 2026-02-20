@@ -2,7 +2,7 @@ name: Sync Spotify to YouTube
 
 on:
   schedule:
-    - cron: "0 */6 * * *"  # cada 6 horas (UTC)
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 
 jobs:
